@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.phase-one{
+    width: 100%;
+    height: 91px;
+    padding: 10px 50px;
+    background-color: rgb(24, 192, 164);
+    background-size: contain;
+    position: fixed;
+    opacity: 0.95;
+}
+.phase-one li{
+    display: inline;
+    margin-left: 58px;
+}
+.phase-one .move-up{
+    margin-left: 83px;
+    margin-top: -57px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.phase-one .level-2{
+    margin-left: 370px;
+    margin-top: -35px;
+    font-size: 12.9px;
+    font-weight: 500;
+    color: #fff;
+}
+.level-2 span{
+    padding: 7px;
+}
+
+.phaseless{
+    width: 100%;
+    height: 1050px;
+    padding-top: 90px;
+}
+.phaseless .phase-two{
+    float: left;
+    padding: 50px 40px 40px;
+    width: 49.2%;
+    height: 970px;
+    background-color: rgb(238, 245, 243);
+}
+.phase-two .plate-1 li{
+    display: inline;
+    list-style: none;
+    margin-right: 85px;
+}
+.plate-1{
+    width: 110%;
+}
+.phaseless .phase-three{
+    float: right;
+    padding: 50px 40px 40px;
+    width: 49.2%;
+    height: 970px;
+    background-color: rgb(247, 243, 240);
+}
+.note-1{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.note-1 h5{
+    color: rgb(102, 101, 101);
+    font-weight: 400;
+    font-size: 14.2px;
+    letter-spacing: 1.5px;
+}
+.note-1 h4{
+    font-size: 27.3px;
+    color: rgb(54, 56, 56);
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-top: -20px;
+}
+.plate-1 img{
+    margin-top: -10px;
+}
+.phase-two .gadgets{
+    margin-top: 25px;
+    margin-left: 105px;
+}
+.gadgets .gadget22{
+    margin-left: 205px;
+}
+.gadget11{
+    background-color: #fff;
+    border-color: #fff;
+    padding: 7px 20px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 25px;
+    color: rgb(131, 129, 129);
+}
+.gadget22{
+    background-color: #fff;
+    border-color: #fff;
+    padding: 7px 20px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 25px;
+    color: rgb(131, 129, 129);
+}
+.note-2{
+    text-align: center;
+    margin-top: 80px;
+}
+.note-2 h4{
+    font-size: 23px;
+    font-weight: 300;
+    color: rgb(54, 56, 56);
+}
+.note-2 h6{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: -27px;
+}
+.note-2 h4 span{
+    color: rgb(12, 210, 245);
+    font-weight: 300;
+}
+.note-2 h6 span{
+    color: rgb(12, 210, 245);
+    font-weight: 300;
+}
+
+
+.note-3{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.note-3 h5{
+    color: rgb(102, 101, 101);
+    font-weight: 400;
+    font-size: 14.2px;
+    letter-spacing: 1.5px;
+}
+.note-3 h4{
+    font-size: 27.3px;
+    color: rgb(54, 56, 56);
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-top: -20px;
+}
+.plate-2{
+    text-align: center;
+    margin-top: -5px;
+}
+.note-4{
+    text-align: center;
+    margin-top: 30px;
+}
+.note-4 h6{
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(122, 121, 121);
+}
+.note-4 h6 span{
+    text-decoration: underline;
+}
+.note-4 .six6{
+    font-size: 12.8px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin-top: -25px;
+}
+.six6 span{
+    color: rgb(12, 210, 245);
+}
+.note-4 .bit64{
+    margin-top: 27px;
+    padding: 18px 34px;
+    font-size: 14.8px;
+    font-weight: 600;
+    border-radius: 30px;
+    letter-spacing: 1.3px;
+    background-color: rgb(0, 236, 126);
+    color: #fff;
+    border-color: rgb(0, 236, 126);
+    border-style: solid;
+    border-width: thin;  
+}
+.note-5{
+    margin-top: 60px;
+    text-align: center;
+}
+.note-5 h5{
+    color: rgb(122, 121, 121);
+    font-size: 14.7px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.note-5 h6{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.06px;
+    margin-top: -10px;
+    color: rgb(12, 210, 245);
+}
+
+.phase-four{
+    width: 100%;
+    height: 280px;
+    background-color: rgb(35, 49, 58);
+    margin-top: 10px;
+    padding: 30px 110px;
+}
+.phase-four .text-1{
+    float: left;
+    margin-right: 110px;
+}
+.phase-four .text-2{
+    float: left;
+    margin-right: 120px;
+}
+.phase-four .text-3{
+    float: left;
+    margin-right: 180px;
+}
+.phase-four li{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    list-style: none;
+    height: 26px;
+}
+.phase-four li:hover{
+    text-decoration: underline;
+}
+.phase-four nav h5{
+    color: rgb(177, 173, 173);
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 40px;
+}
+
+.phase-five{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(31, 43, 51);
+    border-style: none;
+    border-width: thin;
+    padding: 20px 100px;
+}
+.phase-five .bmw{
+    color: rgb(177, 173, 173);
+    font-size: 13.5px;
+    font-weight: 300;
+    padding-left: 48px;
+    float: left;
+    margin-right: 105px;
+}
+.phase-five .gtr{
+    color: #fff;
+    font-size: 13.5px;
+    font-weight: 300;
+}
